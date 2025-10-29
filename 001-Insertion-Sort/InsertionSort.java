@@ -6,7 +6,7 @@ public class InsertionSort {
         Random rnd = new Random();
         rnd.setSeed(145368);
 
-        final int vectorSize=33;
+        final int vectorSize=1000000;
         int[] vector=new int[vectorSize];
 
         System.out.println("Vettore in input:");
