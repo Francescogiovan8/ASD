@@ -6,24 +6,24 @@ public class MergeSort {
         Random rnd = new Random();
         rnd.setSeed(145368);
 
-        final int vectorSize=10000000;
+        final int vectorSize=Integer.parseInt(args[0]);
         double[] vector=new double[vectorSize];
 
-        System.out.println("Vettore in input "+vectorSize+" numeri:");
+        //System.out.println("Vettore in input "+vectorSize+" numeri:");
         for (int i=0;i<vectorSize;i++) {
             vector[i]=rnd.nextInt(100);
-            System.out.print(" "+vector[i]);
+            //System.out.print(" "+vector[i]);
         }
-        System.out.println("");
+        //System.out.println("");
 
 
         vector=mergeSort(vector,0,vectorSize-1);
 
-        System.out.println("Vettore in output:");
+        /* System.out.println("Vettore in output:");
         for (int i=0;i<vectorSize;i++) {
             System.out.print(" "+vector[i]);
         }
-        System.out.println("");
+        System.out.println(""); */
     }
 
     public static double[] mergeSort(double[] vector, int p, int r){
