@@ -6,24 +6,24 @@ public class InsertionSort {
         Random rnd = new Random();
         rnd.setSeed(145368);
 
-        final int vectorSize=1000000;
+        final int vectorSize=Integer.parseInt(args[0]);
         int[] vector=new int[vectorSize];
 
-        System.out.println("Vettore in input:");
+        //System.out.println("Vettore in input:");
         for (int i=0;i<vectorSize;i++) {
-            vector[i]=rnd.nextInt(100);
-            System.out.print(" "+vector[i]);
+            vector[i]=rnd.nextInt(1000);
+            //System.out.print(" "+vector[i]);
         }
-        System.out.println("");
+        //System.out.println("");
 
 
         vector=insertionSort(vector);
 
-        System.out.println("Vettore in output:");
+        /*System.out.println("Vettore in output:");
         for (int i=0;i<vectorSize;i++) {
             System.out.print(" "+vector[i]);
         }
-        System.out.println("");
+        System.out.println("");*/
     }
 
     public static int[] insertionSort(int[] vector){

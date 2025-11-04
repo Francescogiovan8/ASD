@@ -11,7 +11,7 @@ public class MergeSort {
 
         //System.out.println("Vettore in input "+vectorSize+" numeri:");
         for (int i=0;i<vectorSize;i++) {
-            vector[i]=rnd.nextInt(100);
+            vector[i]=rnd.nextInt(1000);
             //System.out.print(" "+vector[i]);
         }
         //System.out.println("");
