@@ -27,4 +27,4 @@ Qui troverai le mie **implementazioni in Java pulite(?) e testate** dei classici
 
 ---
 
-⚠️ Nota: non consiglio di usare strutture dati o implementazioni di al di fuori delle librerie standard di Java; l’obiettivo di questo repository è apprendere come funzionano davvero gli algoritmi e le strutture dati implementandoli da zero.
+⚠️ Nota: non consiglio di usare strutture dati o implementazioni al di fuori delle librerie standard di Java; l’obiettivo di questo repository è apprendere come funzionano davvero gli algoritmi e le strutture dati implementandoli da zero.
