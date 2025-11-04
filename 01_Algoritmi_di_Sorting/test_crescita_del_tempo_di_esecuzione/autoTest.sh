@@ -16,8 +16,6 @@ echo "INIZIO Insertion Sort"
 for ((i=0; i<=$tot; i=i+$progressione)); do
     #echo "▶️  Eseguo Insertion Sort con n = $i"
 
-    #real_time=$( ( time java -cp ../001_Insertion_Sort InsertionSort "$i" ) 2>&1 | grep real | awk '{print $2}' | sed 's/[^0-9.]//g') 
-
     real_time=$(
         { time java -cp ../001_Insertion_Sort InsertionSort "$i"; } 2>&1 \
         | awk '/real/ {
@@ -36,8 +34,6 @@ echo "INIZIO Merge Sort"
 for ((i=0; i<=$tot; i=i+$progressione)); do
     #echo "▶️  Eseguo Merge Sort con n = $i"
 
-    #real_time=$( ( time java -cp ../002_Merge_Sort MergeSort "$i" ) 2>&1 | grep real | awk '{print $2}' | sed 's/[^0-9.]//g')
-
     real_time=$(
         { time java -cp ../002_Merge_Sort MergeSort "$i"; } 2>&1 \
         | awk '/real/ {
@@ -55,8 +51,6 @@ done
 echo "INIZIO Bubble Sort"
 for ((i=0; i<=$tot; i=i+$progressione)); do
     #echo "▶️  Eseguo Bubble Sort con n = $i"
-
-    #real_time=$( ( time java -cp ../003_Bubble_Sort BubbleSort "$i" ) 2>&1 | grep real | awk '{print $2}' | sed 's/[^0-9.]//g')
 
     real_time=$(
         { time java -cp ../003_Bubble_Sort BubbleSort "$i"; } 2>&1 \
