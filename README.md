@@ -10,7 +10,7 @@ Qui troverai le mie **implementazioni in Java pulite(?) e testate** dei classici
 
 ## 🚀 Caratteristiche principali
 
-- **Algoritmi di Ordinamento**: Bubble, Merge, Quick, Heap
+- **Algoritmi di Ordinamento**: Insertion, Merge, Bubble, Quick, Heap
 - **Algoritmi sui Grafi**: BFS, DFS, Dijkstra, Bellman-Ford, Kruskal, Prim  
 - **Programmazione Dinamica**: Problemi classici, dal Fibonacci allo Zaino (Knapsack)  
 - **Strutture Dati**: Array, Liste Collegate, Stack, Code, Heap, Alberi, Hash Table  
