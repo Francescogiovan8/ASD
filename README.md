@@ -14,8 +14,6 @@ Qui troverai le mie **implementazioni in Java pulite(?) e testate** dei classici
 - **Algoritmi sui Grafi**: BFS, DFS, Dijkstra, Bellman-Ford, Kruskal, Prim  
 - **Programmazione Dinamica**: Problemi classici, dal Fibonacci allo Zaino (Knapsack)  
 - **Strutture Dati**: Array, Liste Collegate, Stack, Code, Heap, Alberi, Hash Table  
-- **Ricorsione e Backtracking**: Risolvi puzzle come un vero ninja degli algoritmi  
-- **Testing e Debugging**: Ogni algoritmo ha un piccolo test per verificarne il funzionamento  
 
 ---
 
